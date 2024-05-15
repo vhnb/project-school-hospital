@@ -1,0 +1,230 @@
+::-webkit-scrollbar-thumb {
+    background-color: #f6fcff;
+    border-radius: 0.6vh;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    height: 1vh;
+    position: absolute;
+    width: 0.6vh;
+    background-color: #f6fcff;
+}
+
+body {
+    background-color: #f6fcff;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+* {
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-style: normal;
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    resize: none;
+    outline: none;
+    border: 0;
+    scroll-behavior: smooth;
+}
+
+.dropdown-menu{
+    transition: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2%;
+    position: fixed;
+    background-color: #f6fcff;
+}
+
+header h1{
+    font-size: 1.5rem;
+}
+
+header h1 span {
+    color: #0d6efd;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 95%;
+    padding: 1%;
+}
+header nav a{
+    margin-right: 3%;
+    color: #0b0c0f;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: #0d6efd;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 0.5rem;
+    border: 1px solid rgb(165, 165, 165);
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+input:focus {
+    border: 1px solid #0d6efd;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    border: 1px solid #e3e3e3;
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+}
+
+button {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 8%;
+}
+
+div {
+    width: 100%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+}
+section img{
+    height: auto;
+    width: 25%;
+    margin-left: 3%;
+}
+section .divText{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 3%;
+}
+section .divText h1 span{
+    color: #0d6efd;
+}
+
+#pac{
+    display: none;
+}
+
+.containerResultCard{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    border: 1px solid #e3e3e3;
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+    width: 40%;
+}
+.containerResultCard:hover{
+    border: 1px solid #0d6efd;
+}
+
+.containerResultCard h1{
+    margin-bottom: 5%;
+}
+
+.containerResultCard p{
+    margin-bottom: 0;
+    font-size:1rem ;
+    background-color: #fff;
+    width: 90%;
+    border-radius: 0.5rem;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.sectionResultAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.containerList{
+    min-height: 100vh;
+    padding: 3%;
+}
+.containerList h1{
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+#listaMedicamentos{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+#listaPacientes{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.styleList{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2%;
+    border: 1px solid #e3e3e3;
+    background-color: #f4f4f4;
+    width: 100%;
+    padding: 2%;
+    border-radius: 0.5rem;
+}
+.styleList:hover{
+    border: 1px solid #0d6efd;
+}
+.styleList p{
+    margin-bottom: 0;
+}
+.styleList span{
+    color: rgb(51, 148, 51);
+    font-size: 1.2rem;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "nome_paciente": "Rafael",
+    "data_paciente": "2007-08-10"
+  },
+  {
+    "nome_paciente": "Antonio",
+    "data_paciente": "2000-01-11"
+  },
+  {
+    "nome_paciente": "jonas",
+    "data_paciente": "2032-10-13"
+  },
+  {
+    "nome_paciente": "teste",
+    "data_paciente": "2024-04-04"
+  },
+  {
+    "nome_paciente": "Rafael",
+    "data_paciente": "2024-05-25"
+  }
+]
