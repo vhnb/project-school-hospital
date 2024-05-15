@@ -10,7 +10,7 @@ Para rodar o aplicativo, você precisa ter o Node.js instalado em seu sistema.
 1. Baixe o arquivo do projeto.
 2. No diretório do projeto, abra o terminal e execute o comando abaixo para instalar as dependências:
 ```
-npm express
+npm i express
 ```
 
 Após a instalação das dependências, execute o seguinte comando para iniciar o aplicativo:
